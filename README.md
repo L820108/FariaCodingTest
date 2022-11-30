@@ -13,5 +13,5 @@
   * ![image info](./FrontEnd/Table4.PNG) 
 ## Backend
 * I was used binary search to make the time complexity less than loop each floor.
- * Result would be like
+ * Result
   * ![image info](./Backend/Result.PNG)   

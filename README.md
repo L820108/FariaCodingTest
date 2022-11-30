@@ -4,7 +4,11 @@
   * Bootstrap
   * [ag-grid](https://www.ag-grid.com/javascript-data-grid/getting-started/)
 * Table would be like as below image
-   * ![image info](./FrontEnd/Table1.PNG) 
+  * ![image info](./FrontEnd/Table1.PNG)
+* Query by name
+  * ![image info](./FrontEnd/Table2.PNG) 
+* Reset balance
+  * ![image info](./FrontEnd/Table3.PNG) 
 # Back End
 * I was used binary search to make the time complexity less than loop each floor.
  * Result would be like

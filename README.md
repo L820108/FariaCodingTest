@@ -9,6 +9,8 @@
   * ![image info](./FrontEnd/Table2.PNG) 
 * Reset balance
   * ![image info](./FrontEnd/Table3.PNG) 
+* Responsive Grid
+  * ![image info](./FrontEnd/Table4.PNG) 
 ## Backend
 * I was used binary search to make the time complexity less than loop each floor.
  * Result would be like

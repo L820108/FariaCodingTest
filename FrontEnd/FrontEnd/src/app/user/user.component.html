@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <div class="col-sm-12">
+                    <div class="input-group">
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control col-sm-4" placeholder="type name to filter" [(ngModel)]="this.queryName" [value]="this.queryName">
+                        </div>
+                        <button type="button" class="btn btn-outline-primary" (click)="Query()">Query</button>
+                        <button type="button" class="btn btn-outline-primary" (click)="ResetBalance()">Reset Balance</button>
+                        <button type="button" class="btn btn-outline-danger" (click)="ClearQueryAndReset()">Clear Query and Reset</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <ag-grid-angular
+                    style="width: 100%; height: 100%"
+                    class="ag-theme-alpine"
+                    (gridReady)="onGridReady($event)"
+                    [rowData]="iUserArr"
+                    [columnDefs]="columnDefs"
+                    [defaultColDef]="defaultColDef">
+                    </ag-grid-angular>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

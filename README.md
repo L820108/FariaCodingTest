@@ -1,5 +1,5 @@
 # FariaCodingTest
-# Front End
+## Frontend
 * I was used third party package as below to satisfy the requirements of word file.
   * Bootstrap
   * [ag-grid](https://www.ag-grid.com/javascript-data-grid/getting-started/)
@@ -9,7 +9,7 @@
   * ![image info](./FrontEnd/Table2.PNG) 
 * Reset balance
   * ![image info](./FrontEnd/Table3.PNG) 
-# Back End
+## Backend
 * I was used binary search to make the time complexity less than loop each floor.
  * Result would be like
   * ![image info](./Backend/Result.PNG)   
